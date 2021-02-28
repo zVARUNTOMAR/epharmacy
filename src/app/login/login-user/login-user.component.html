@@ -1,0 +1,46 @@
+
+<!-- Header Part -->
+<div class = "header">
+    <div class="navbar">
+      <mat-toolbar>
+        <mat-icon>thermostat</mat-icon>
+        <span class="title">E-Pharmacy</span>
+      </mat-toolbar>
+    </div>
+</div>
+
+  <div class="login-container">
+      <div class="login-info">
+        <div class="login-info-text">
+          <p class="login-title">Login</p>
+          <p class="login-info-text-ex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero recusandae aliquam assumenda iste, earum voluptas, esse architecto blanditiis dolorem repudiandae delectus, doloremque officiis nulla omnis.</p>
+          <p class="icon">
+            <mat-icon>thermostat</mat-icon>
+            <mat-icon>local_hospital</mat-icon>
+            <mat-icon>local_pharmacy</mat-icon>
+            <mat-icon>bloodtype</mat-icon>
+          </p>
+        </div>
+      </div>
+        <div class="login-auth">
+            <form [formGroup] = "loginDetails" (submit)="onSubmit()" autocomplete="off">
+                <mat-form-field appearance ="outline" class="form-email">
+                    <mat-label>Email</mat-label>
+                    <input type="email" matInput placeholder="Enter Email" formControlName="email" required>
+                </mat-form-field><br>
+                <mat-form-field appearance ="outline" class=form-email>
+                  <mat-label>Password</mat-label>
+                  <input type = "password" matInput placeholder="Enter Password" formControlName = "password" required>
+                </mat-form-field><br>
+                <span id = "error-message"></span><br>
+                <button mat-raised-button>SUBMIT</button>
+            </form>
+        </div>
+  </div>
+    
+    <!-- Footer Part -->
+    <div class="footer">
+      <p class="footer-title">Copyright &copy;E-Pharmacy 2021</p>
+    </div>
+
+    <router-outlet></router-outlet>

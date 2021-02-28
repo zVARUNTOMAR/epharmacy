@@ -1,0 +1,35 @@
+<app-header></app-header>
+<div class="container-1">
+        <div class="content-1">
+            <p class="title">add medicines</p>
+            <mat-icon>add_box</mat-icon>
+            <br>
+            <br>
+            <a [routerLink]="'addmedicine'"><button mat-raised-button>ADD</button></a>
+        </div>
+        <div class="content-2">
+            <p class="title">Buy Medicines</p>
+            <mat-icon>shopping_cart</mat-icon>
+            <br>
+            <br>
+            <a [routerLink]="'buymedicine'"><button mat-raised-button>BUY</button></a>
+        </div>
+</div>
+<div class="container-2">
+    <div class="content-1">
+        <p class="title">Update Medicines</p>
+        <mat-icon>update</mat-icon>
+        <br>
+        <br>
+        <a [routerLink]="'updatemedicine'"><button mat-raised-button>UPDATE</button></a>
+    </div>
+    <div class="content-2">
+        <p class="title">Search Medicines</p>
+        <mat-icon>search</mat-icon>
+        <br>
+        <br>
+        <a [routerLink]="'searchmedicines'"><button mat-raised-button>SEARCH</button></a>
+    </div>
+</div>
+<app-footer></app-footer>
+<router-outlet></router-outlet>

@@ -1,0 +1,84 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.search-container{
+    /* border:2px solid green; */
+    width:50%;
+    margin-top:5%;
+    margin-left:25%;
+    text-align: center;
+}
+
+.search-bar{
+    border-radius: 12px;
+    width:60%;
+    height:30px;
+    background-color: #F0F7F9;
+    padding:10px;
+}
+
+h3{
+    text-align :center;
+    text-transform: uppercase;
+    font-size:30px;
+    font-family: 'RocknRoll One', sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,75,121,1) 100%);
+    color:white;
+    padding:3px;
+    width:50%;
+    margin-left:25%;
+    clip-path: polygon(4% 0, 100% 0, 95% 100%, 0% 100%);
+    margin-top: 5%;;
+}
+
+.btn{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,75,121,1) 100%);
+    color: white;
+    width:100px;
+}
+
+
+.result{
+    margin-top:4%;
+}
+
+table{
+    width:50%;
+    margin-left:25%;
+    /* margin-top:5%; */
+    /* border:1px solid green; */
+}
+
+th{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,75,121,1) 100%);
+    color: white;
+    text-align :center;
+}
+td{
+    text-align:center;
+    text-transform: capitalize;
+    padding:8px;
+    font-size:20px;
+    font-weight:400;
+}
+
+#home{
+    margin-left: 48%;
+    margin-top:5%;
+    
+}
+#search-text{
+    border-radius: 12px;
+    width:80%;
+    margin-left:10%;
+}
+
+.buy{
+    width:40%;
+    margin-left:30%;
+}

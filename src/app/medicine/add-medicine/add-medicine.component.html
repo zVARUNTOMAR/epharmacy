@@ -1,0 +1,28 @@
+<app-header></app-header>
+<div class="container">
+  <h3>Add Medicines</h3><br>
+<form [formGroup] = "medicineDetails" (submit)="onSubmit()" autocomplete = "off" id = "form2">
+
+  <div class="form-group">
+    <mat-form-field appearance="outline">
+        <mat-label>Medicine Name</mat-label>
+        <input matInput color = "warn" name = "name"  id = "name" formControlName ="medicineName" class="form-control" required>
+    </mat-form-field>
+  </div>
+  <div class="form-group">
+    <mat-form-field apearance="outline">
+        <mat-label>Disease Id</mat-label>
+        <input matInput color = "warn" type = "number" name = "diseaseId"  id = "diseaseId" formControlName ="diseaseId" class="form-control" required>
+    </mat-form-field>
+  </div>
+  <div class="form-group">
+    <mat-form-field appearance="outline">
+        <mat-label>Quantity</mat-label>
+        <input matInput type = "number" color = "warn" name = "quanitity"  id = "quanitity" formControlName ="quantity" class="form-control" required>
+    </mat-form-field>
+  </div>
+  <button mat-raised-button class="btn btn-primary submit">submit</button>
+</form>
+</div>
+<app-footer></app-footer>
+<router-outlet></router-outlet>

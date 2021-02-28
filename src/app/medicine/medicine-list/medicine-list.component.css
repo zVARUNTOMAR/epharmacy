@@ -1,0 +1,40 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+div{
+    /* border:2px solid green; */
+}
+.row{
+    margin:30px;
+}
+
+.card-1{
+    margin-left: 65%;
+    margin-top: 5%;
+}
+
+
+.card-2{
+    margin-top: 5%;
+}
+.card-title{
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-left:40%;
+}
+
+img{
+    width:230px;
+    height:200px;
+}
+
+button{
+    text-transform: uppercase;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,75,121,1) 100%);
+    color: white;
+    margin-left:35%;
+    padding:5px;
+}
