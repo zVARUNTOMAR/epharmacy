@@ -11,7 +11,6 @@ import { MedicineService } from 'src/app/shared/medicine.service';
 export class SearchMedicinesComponent implements OnInit {
 
   searchDetails!:FormGroup;
-
   
   constructor(public service:MedicineService) { }
 

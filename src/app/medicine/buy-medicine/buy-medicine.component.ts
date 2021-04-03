@@ -14,5 +14,4 @@ export class BuyMedicineComponent implements OnInit {
   ngOnInit(): void {
     this.service.showMedicines();
   }
-  
 }
